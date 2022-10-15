@@ -1,0 +1,517 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style-type: none;
+}
+#top .container{
+    height: 85px;
+    background-color: rgba(71, 71, 71, 0.087);
+}
+#top .title{
+    float: left;
+}
+#top .title span{
+    font-family: fantasy;
+    font-size: 30px;
+    font-style: italic;
+    margin-left: 40px;
+    line-height: 80px;
+    color: rgba(0, 0, 0, 0.831);
+}
+#top .motto{
+    float: left;
+    margin-top: 20px;
+    margin-left: 550px;
+    text-align: center;
+    height: 50px;
+    width: 500px;
+    background-color: rgba(224, 213, 180, 0.637);
+}
+#top .motto .mot1{
+    font-size: 17px;
+    font-family: 黑体;
+    font-weight: 500;
+    color: rgba(110, 110, 110, 0.95);
+}
+#top .motto .mot2{
+    font-size: 10px;
+    font-family: 黑体;
+    color: rgba(110, 110, 110, 0.95);
+}
+#nav .container{
+    background-color: darkgrey;
+    height: 40px;
+    line-height: 40px;
+}
+#nav .father{
+    float: left;
+    text-align: center;
+    margin-left: 130px;
+}
+#nav .father>li{
+    float: left;
+    width: 200px;
+}
+#nav .father>li a{
+    font-size: 13px;
+    font-weight: 600;
+    color: aliceblue;
+}
+#nav .father li:hover{
+    background-color: rgba(72, 71, 71, 0.646);
+}
+#head .container .img current{
+    height: 300px;
+    width: 1217px;
+    position: relative;
+}
+#head .container .img{
+    height: 300px;
+    width: 1217px;
+    position: relative;
+}
+#head .scrollback {
+    width: 100%;
+    margin: 0 0;
+    text-align: center;
+}
+#head .scrollback .scroll {
+    position: relative;
+    display: inline-block;
+    height: 300px;
+    width: 1217px;
+}
+#head .scrollback .scroll .img {
+    display: none;
+    width: 100%;
+}
+#head .scrollback .scroll .current {
+    display: block;
+}
+#head .scroll .lf {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+#head .scroll .lf img{
+    width: 50px;
+    height: 50px;
+}
+#head .scroll .lr {
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+#head .scroll .lr img{
+    width: 50px;
+    height: 50px;
+}
+#head .dots {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    width: 160px;
+}
+#head .dots span {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 11px;
+    height: 11px;
+    border: 3px solid rgba(204, 204, 204, 0.2);
+    border-radius: 15px;
+    cursor: pointer;
+}
+#head .dots>span:not(:last-child) {
+    margin-right: 5px;
+}
+#head .dots .square {
+    background: rgb(30, 107, 179);
+}
+#head .container .pic2{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 560px;
+    border-radius: 50%;
+}
+#mainplace .container{
+    height: 2100px;
+    background-color: rgba(71, 71, 71, 0.087);
+    margin-top: -5px;
+}
+#mainplace .name{
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgba(71, 71, 71, 0.087);
+}
+#mainplace .name span{
+    font-size: 28px;
+    font-family: 黑体;
+    font-weight: 800;
+    color: rgba(110, 110, 110, 0.95);
+}
+#mainplace .left{
+    background-color: rgb(255, 255, 255);
+    float: left;
+    height: 1950px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 100px;
+    opacity: 80%;
+    border-top-left-radius: 20px 20px;
+    border-top-right-radius: 20px 20px;
+}
+#mainplace .mingpian{
+    width: 400px;
+    height: 100px;
+    line-height: 100px;
+    background-image: url(4.jpg) ;
+    text-align: center;
+    border-top-left-radius: 20px 20px;
+    border-top-right-radius: 20px 20px;
+}
+#mainplace .mingpian span{
+    font-size: 25px;
+    font-family: 黑体;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.781);
+}
+#mainplace .jieshao .qw1{
+    margin-left: 80px;
+    font-weight: 800;
+    color: rgb(90, 90, 90);
+}
+#mainplace .jieshao .qw2{
+    margin-left: 40px;
+}
+#mainplace .record{
+    height: 50px;
+    width: 400px;
+    background-color: rgba(63, 63, 63, 0.92);
+}
+#mainplace .record span{
+    margin-left: 40px;
+    color: rgba(255, 255, 255, 0.952);
+}
+#mainplace .left .whitebox{
+    height: 50px;
+    width: 400px;
+    background-color: rgba(71, 71, 71, 0.087);
+}
+#mainplace .recommend{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 340px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: rgba(231, 217, 183, 0.811);
+    border-top-left-radius: 20px 20px;
+    border-top-right-radius: 20px 20px;
+    border-bottom-left-radius: 20px 20px;
+    border-bottom-right-radius: 20px 20px;
+}
+#mainplace .recommend span{
+    color: rgba(63, 63, 63, 0.92);
+    font-size: 20px;
+}
+#mainplace .article{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+#mainplace .article ul li{
+    padding-bottom: 10px;
+}
+#mainplace .article a{
+    color: rgba(63, 63, 63, 0.92);
+}
+#mainplace .article li a:hover{
+    color: cornflowerblue;
+}
+#mainplace .recommend1{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 340px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: rgba(231, 217, 183, 0.811);
+    border-top-left-radius: 20px 20px;
+    border-top-right-radius: 20px 20px;
+    border-bottom-left-radius: 20px 20px;
+    border-bottom-right-radius: 20px 20px;
+}
+#mainplace .recommend1 span{
+    color: rgba(63, 63, 63, 0.92);
+    font-size: 20px;
+}
+#mainplace .music{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+#mainplace .music ul li{
+    padding-bottom: 10px;
+}
+#mainplace .music a{
+    color: rgba(63, 63, 63, 0.92);
+}
+#mainplace .music li a:hover{
+    color: rgba(184, 152, 47, 0.868);
+}
+#mainplace .recommend2{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 340px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: rgba(231, 217, 183, 0.811);
+    border-top-left-radius: 20px 20px;
+    border-top-right-radius: 20px 20px;
+    border-bottom-left-radius: 20px 20px;
+    border-bottom-right-radius: 20px 20px;
+}
+#mainplace .recommend2 span{
+    color: rgba(63, 63, 63, 0.92);
+    font-size: 20px;
+}
+#mainplace .more{
+    height: 20px;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#mainplace .more span{
+    color: rgba(63, 63, 63, 0.92);
+}
+#mainplace .right{
+    background-color: rgb(255, 255, 255);
+    opacity: 80%;
+    float: left;
+    height: 1950px;
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 45px;
+}
+#mainplace .right .whitebox{
+    height: 20px;
+    width: 600px;
+    background-color: rgba(71, 71, 71, 0.087);
+}
+#mainplace #post1{
+    margin-top: 35px;
+    margin-left: 50px;
+}
+#mainplace #post1 img{
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 450px;
+    height: 250px;
+}
+#mainplace #post1 .lwd{
+    font-size: 20px;
+    color:rgba(67, 67, 67, 0.95)
+}
+#mainplace #post1 .lw{
+    padding-left: 250px;
+    font-size: 12px;
+    color:rgba(116, 116, 116, 0.95)
+}
+#mainplace #post1 .tub1{
+    height: 40px;
+    line-height: 40px;
+    width: 200px;
+    border: 1px ;
+    margin-left: 300px;
+}
+#mainplace #post1 .tubiao1{
+    float: right;
+}
+#mainplace #post1 .tubiao1 li{
+    float: left;
+}
+#mainplace #post1 .tubiao1 img{
+    width: 30px;
+    height: 30px;
+}
+#mainplace #post1 .tub2{
+    height: 40px;
+    line-height: 40px;
+}
+#mainplace #post1 .tubiao2{
+    float: left;
+}
+#mainplace #post1 .tubiao2 li{
+    float: left;
+}
+#mainplace #post2{
+    margin-top: 35px;
+    margin-left: 50px;
+}
+#mainplace #post2 img{
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 450px;
+    height: 250px;
+}
+#mainplace #post2 .lwd1{
+    font-size: 20px;
+    color:rgba(67, 67, 67, 0.95)
+}
+#mainplace #post2 .lw1{
+    padding-left: 250px;
+    font-size: 12px;
+    color:rgba(116, 116, 116, 0.95)
+}
+#mainplace #post2 .tub1{
+    height: 40px;
+    line-height: 40px;
+    width: 200px;
+    border: 1px ;
+    margin-left: 300px;
+}
+#mainplace #post2 .tubiao1{
+    float: right;
+}
+#mainplace #post2 .tubiao1 li{
+    float: left;
+}
+#mainplace #post2 .tubiao1 img{
+    width: 30px;
+    height: 30px;
+}
+#mainplace #post2 .tub2{
+    height: 40px;
+    line-height: 40px;
+}
+#mainplace #post2 .tubiao2{
+    float: left;
+}
+#mainplace #post2 .tubiao2 li{
+    float: left;
+}
+#mainplace #post3{
+    margin-top: 35px;
+    margin-left: 50px;
+}
+#mainplace #post3 img{
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 450px;
+    height: 250px;
+}
+#mainplace #post3 .lwd2{
+    font-size: 20px;
+    color:rgba(67, 67, 67, 0.95)
+}
+#mainplace #post3 .lw2{
+    padding-left: 250px;
+    font-size: 12px;
+    color:rgba(116, 116, 116, 0.95)
+}
+#mainplace #post3 .tub1{
+    height: 40px;
+    line-height: 40px;
+    width: 200px;
+    border: 1px ;
+    margin-left: 300px;
+}
+#mainplace #post3 .tubiao1{
+    float: right;
+}
+#mainplace #post3 .tubiao1 li{
+    float: left;
+}
+#mainplace #post3 .tubiao1 img{
+    width: 30px;
+    height: 30px;
+}
+#mainplace #post3 .tub2{
+    height: 40px;
+    line-height: 40px;
+}
+#mainplace #post3 .tubiao2{
+    float: left;
+}
+#mainplace #post3 .tubiao2 li{
+    float: left;
+}
+#fixright{
+    width: 35px;
+    height:200px;
+    background-color: rgba(205, 199, 182, 0.874);
+    ;
+    position: fixed;
+    right: 0;
+    bottom: 180px;
+}
+#fixright .use1{
+    width: 20px;
+    height:20px;
+}
+#fixright .father li{
+    padding-top: 20px;
+    padding-left: 7px;
+}
+#fixright .father li:first-child{
+    position: relative;
+}
+#fixright .son{
+    width: 105px;
+    height:105px;
+    background-color: rgba(181, 181, 181, 0.874);
+    position: absolute;
+    left: -105px;
+    top:0px;
+    display: none;
+}
+#fixright .use2{
+    width:100px;
+    height:100px;
+    margin-top: -16px;
+    margin-left: -4px;
+}
+#fixright .father li:hover .son{
+    display: block;
+}
+#fixrigbot{
+    width: 35px;
+    height:35px;
+    background-color: rgba(255, 255, 255, 0);
+    ;
+    position: fixed;
+    right: 0;
+    bottom: 70px;
+}
+#fixrigbot .use1{
+    width: 27px;
+    height:27px;
+}
+#fixrigbot .father li{
+    padding-top: 5px;
+    padding-left: 4px;
+}
+#bottom{
+    height: 50px;
+    background-color: rgba(124, 124, 124, 0.838);
+} 
+#bottom p{
+    text-align: center;
+} 
